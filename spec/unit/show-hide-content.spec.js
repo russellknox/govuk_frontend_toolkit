@@ -1,8 +1,12 @@
+/* eslint-env jasmine */
+
+var $ = window.$
+var GOVUK = window.GOVUK
+
 describe('show-hide-content', function () {
   'use strict'
 
   beforeEach(function () {
-
     // Sample markup
     this.$content = $(
 

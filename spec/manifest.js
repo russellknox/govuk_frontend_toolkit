@@ -1,5 +1,5 @@
 // Paths are relative to the /spec/support folder
-var manifest = {
+window.manifest = {
   support: [
     '../../node_modules/jquery/dist/jquery.js',
     '../../javascripts/govuk/modules.js',
