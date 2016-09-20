@@ -69,6 +69,8 @@
             sticky.release($el);
           } else if(windowDimensions.width > 768 && windowVerticalPosition >= sticky.getElementOffset($el).top) {
             sticky.stick($el);
+          } else if(windowDimensions.width <= 768) {
+            sticky.release($el);
           }
         });
       }
